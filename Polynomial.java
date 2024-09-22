@@ -51,11 +51,6 @@ public class Polynomial{
 		return result;
 	}
 	public boolean hasRoot(double root) {
-		if(evaluate(root)==0) {
-			return true;
-		}
-		else {
-			return false;
-		}
+		return evaluate(root)==0;
 	}
 }
